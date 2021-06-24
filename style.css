@@ -1,0 +1,115 @@
+/* Universal Styles */
+body {
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 100%;
+    margin: auto;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Header */
+header {
+    height: 110px;
+    display: flex;
+    background-color: lightgray;
+    width: 100%;
+    justify-content: center;
+    min-width: 950px;
+    margin-bottom: 0;
+}
+
+header h1 {
+    justify-content: center;
+    display: inline-block;
+    font-size: 4rem;
+    margin-left: 0;
+}
+
+header img {
+    height: 100%;
+    width: 10rem;
+    max-width: 15rem;
+    display: inline-block;
+}
+
+.fixed {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+}
+
+/* Navigation Menu */
+.navflex {
+    display: flex;
+    background-color: rgb(146, 145, 145);
+    justify-content: space-around;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Landing Page */
+
+.landing {
+    background-image: url("resources/images/landing-page.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 55rem;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.quote {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 160px;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Parisienne', cursive;
+}
+
+/* Portfolio Page */
+
+.portfolio {
+    background-color: lightgray;
+    position: relative;
+    top: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 5rem;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    min-width: 600px;
+}
+.portfolio img {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+/* Team Page */
+
+.team {
+    margin-top: 6rem;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
