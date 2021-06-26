@@ -12,6 +12,10 @@ a {
     color: rgb(12, 12, 12);
 }
 
+a:hover {
+    color: green;
+}
+
 /* Header */
 header {
     height: 110px;
@@ -48,7 +52,7 @@ header img {
 /* Navigation Menu */
 .navflex {
     display: flex;
-    background-color: rgb(228, 228, 228);
+    background-color: rgb(255, 255, 255);
     justify-content: space-around;
     font-size: 1.2rem;
     font-weight: bold;
@@ -109,7 +113,7 @@ header img {
 /* Portfolio Page */
 
 .portfolio {
-    background-color: lightgray;
+    background-color: rgb(238, 238, 238);
     position: relative;
     top: 1rem;
     text-align: center;
